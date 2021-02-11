@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_download"
+            android:title="Download"/>
+        <item
+            android:id="@+id/nav_pelanggan"
+            android:icon="@drawable/ic_list_pelanggan"
+            android:title="List Pelanggan"/>
+        <item
+            android:id="@+id/nav_histori"
+            android:icon="@drawable/ic_histori"
+            android:title="Histori"/>
+        <!--item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Tools"/-->
+    </group>
+
+    <item android:title="Information :">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact"/>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_faq"
+                android:title="FAQ"/>
+            <item
+                android:id="@+id/nav_device"
+                android:icon="@drawable/ic_device"
+                android:title="Device Info"/>
+        </menu>
+    </item>
+
+</menu>
